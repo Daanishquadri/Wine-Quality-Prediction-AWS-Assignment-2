@@ -1,19 +1,13 @@
 import findspark
-
 findspark.init()
-findspark.find()
 
-# Loading the libraries
 import pyspark
-from pyspark.mllib.tree import RandomForest
 
+from pyspark.sql import SparkSession
 from pyspark.ml.feature import VectorAssembler
-from pyspark.mllib.regression import LabeledPoint
-from pyspark.sql.functions import col
-from pyspark.sql.session import SparkSession
-import numpy as np
-from sklearn.metrics import f1_score
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from pyspark.ml.classification import RandomForestClassifier
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+
 
 # Starting the spark session
 conf = pyspark.SparkConf().setAppName('winequality').setMaster('local')
@@ -27,7 +21,7 @@ df.show()
 
 # changing the 'quality' column name to 'label'
 for col_name in df.columns[1:-1] + ['""""quality"""""']:
-    df = df.withColumn(col_name, col(col_name).cast('float'))
+    df = df.withColumn(col_name, (col_name).cast('float'))
 df = df.withColumnRenamed('""""quality"""""', "label")
 
 # getting the features and label separately and converting it to numpy array
@@ -86,5 +80,6 @@ testErr = labelsAndPredictions.filter(
 print('Test Error = ' + str(testErr))
 
 # save training model
-RFmodel.save(sc, 's3://winequal/training model.model')
+RFmodel.save(sc)
+spark.stop()
       
