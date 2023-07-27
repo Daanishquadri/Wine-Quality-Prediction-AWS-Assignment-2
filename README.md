@@ -1,6 +1,4 @@
 # Wine-Quality-Prediction-AWS-Assignment-2
-# Cloud Computing Assignment 2
-
 # Aim of the project: 
 
 The main objective of this individual task is to gain knowledge in building parallel machine learning (ML) applications on the Amazon AWS cloud platform. The focus will be on acquiring three essential skills:
