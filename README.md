@@ -39,7 +39,7 @@ To check the progress, go to the Step tab and click "View logs" for the Spark ap
 So, I created 3 clusters and all of them were terminated with errors 
 I have tried to google why I was getting errors tried all the videos I checked and it didn't work
 
-<img width="1440" alt="Screenshot 2023-07-28 at 10 46 42 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/3849e4b1-2115-4e0a-a14c-bccaa0d18d1f">
+<img width="1440" alt="Screenshot 2023-07-28 at 10 54 02 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/bdba7dbe-6fd8-4e50-96af-881699b0f910">
 
 <img width="1440" alt="Screenshot 2023-07-28 at 10 53 54 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/49c85858-0b47-4198-8f48-f337263637aa">
 
