@@ -50,6 +50,9 @@ After setting up the EC2 instances, S3 buckets, and Amazon EMR clusters, I attem
 <img width="1440" alt="Screenshot 2023-07-28 at 11 03 38 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/4f8d1e29-8fbc-4c61-a9a6-eaa7a77d76ec">
 <img width="1440" alt="Screenshot 2023-07-28 at 11 03 47 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/b0b8dc0a-0a54-428e-91e3-ea6a868137be">
 
+# Running Model Prediction on Single EC2 instance with Docker.
+
+You have created an EC2 instance with Docker installed on it. To work with your application, you can log in to the EC2 instance. Once logged in, you can download a Docker image and run it interactively using the latest version. When running the image, you can pass the S3 link of the "ValidationDataset.csv" file as a test to the Docker container. This will help you test your application using the data from the "S3 bucket you have created" storage on AWS.
 
 
 
