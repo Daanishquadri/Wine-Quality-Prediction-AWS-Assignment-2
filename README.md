@@ -24,4 +24,25 @@ I went to the search tab and searched for Amazon S3. When I found it, I had the 
 
 
 
+# Creation of Amazon EMR clusters on EC2 instnaces
+
+Once I went to the Amazon EMR tab I got an option to create a cluster.
+So, I created the cluster using the following method:
+Choose "Step execution" in Launch mode.
+Select "Spark application" for Step type and click on "Configure."
+Set "Deploy mode" to "Client," "Spark-submit options" to "spark-submit --deploy-mode client https://s3.console.aws.amazon.com/s3/buckets/eca1?region=us-east-1&tab=objects," and "Application location" to spark-submit --deploy-mode client https://s3.console.aws.amazon.com/s3/buckets/eca1?region=us-east-1&tab=objects" Also, set "Action on failure" to "Terminate Cluster" (it will stop the cluster after the step is completed successfully).
+Choose "Spark" for Software configuration.
+For Hardware configuration, select "Number of instances" as 4.
+Click on "Create Cluster," and it will take about 30 minutes to finish.
+To check the progress, go to the Step tab and click "View logs" for the Spark application.
+So, I created 3 clusters and all of them were terminated with errors 
+I have tried to google why I was getting errors tried all the videos I checked and it didn't work
+
+<img width="1440" alt="Screenshot 2023-07-28 at 10 46 42 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/3849e4b1-2115-4e0a-a14c-bccaa0d18d1f">
+
+<img width="1440" alt="Screenshot 2023-07-28 at 10 53 54 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/49c85858-0b47-4198-8f48-f337263637aa">
+
+
+
+
 
