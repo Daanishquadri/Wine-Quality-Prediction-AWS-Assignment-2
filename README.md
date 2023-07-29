@@ -43,6 +43,15 @@ I have tried to google why I was getting errors tried all the videos I checked a
 <img width="1440" alt="Screenshot 2023-07-28 at 10 53 54 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/49c85858-0b47-4198-8f48-f337263637aa">
 
 
+# Tried to run the code
+
+After setting up the EC2 instances, S3 buckets, and Amazon EMR clusters, I attempted to run the .csv and .py files, but encountered an error. Even when running the code via Docker, the same error persisted. However, when I ran the code in the PyCharm IDE, I was able to retrieve the first 20 numbers from the file successfully. Unfortunately, I'm facing difficulties in running the program on my AWS console.
+
+![Screenshot 2023-07-28 at 10 45 54 PM (2)](https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/efcb74d4-cf5a-4983-a7e3-fafe702ae81a)
+
+![Screenshot 2023-07-28 at 10 45 43 PM (2)](https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/67c22321-7285-4d33-865c-28418953acb5)
+
+
 
 
 
