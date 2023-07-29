@@ -20,7 +20,8 @@ First, I logged into the AWS website and went to the learners lab. Then, I click
 
 I went to the search tab and searched for Amazon S3. When I found it, I had the option to create a new bucket. I went ahead and created a new bucket named "eca1". After creating the S3 bucket, I uploaded all my CSV files and .py files into it. Once the files were uploaded, I continued with the next steps of creating an Amazon EMR for EC2 instances, which creates clusters for the EC2 instances.
 <img width="1440" alt="Screenshot 2023-07-28 at 10 46 42 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/e74570cb-d0d0-4072-a8cf-1919cc2457fa">
-<img width="1440" alt="Screenshot 2023-07-28 at 10 46 36 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/52f893f5-b888-4ce3-b801-f1f3f59fb173">
+<img width="1440" alt="Screenshot 2023-07-28 at 11 21 34 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/ec5eaeb8-2299-4d05-b538-36a2d1152462">
+
 
 
 
