@@ -13,3 +13,13 @@ First, I logged into the AWS website and went to the learners lab. Then, I click
 <img width="1440" alt="Screenshot 2023-07-28 at 10 33 34 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/604cf329-8cd6-49b4-92ab-cf60e3aa7d47">
 <img width="1440" alt="Screenshot 2023-07-28 at 10 33 47 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/db8f108d-75e3-461c-82b4-405548d91cfe">
 
+# Creation of a single Amazon S3 Bucket
+
+I went to the search tab and searched for Amazon S3. When I found it, I had the option to create a new bucket. I went ahead and created a new bucket named "eca1". After creating the S3 bucket, I uploaded all my CSV files and .py files into it. Once the files were uploaded, I continued with the next steps of creating an Amazon EMR for EC2 instances, which creates clusters for the EC2 instances.
+<img width="1440" alt="Screenshot 2023-07-28 at 10 33 47 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/df127fb5-d9fa-4464-a3d3-a9f09e2cd5ea">
+
+<img width="1440" alt="Screenshot 2023-07-28 at 10 39 58 PM" src="https://github.com/Daanishquadri/Wine-Quality-Prediction-AWS-Assignment-2/assets/84735952/e4ec3cfd-fc32-429e-92bc-242f9f33d9b5">
+
+
+
+
