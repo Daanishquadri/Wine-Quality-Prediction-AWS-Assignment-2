@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM emr-6.12.0
 
 ARG BUILD_DATE
 ARG SPARK_VERSION=3.4.0
